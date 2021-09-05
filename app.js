@@ -1,12 +1,11 @@
 const express =require("express")
 const app=express()
 
-app.get('/',(req,res)=>res.send("Helo from app"))
+app.get('/',(req,res)=>res.send("Updated the code Helo from app"))
 app.get('/get',(req,res)=>{
 
 res.send({
-    "name":"nanda",
-    "dept":"cse"
+  "about":"Imma gangsta"
 })
 
 
